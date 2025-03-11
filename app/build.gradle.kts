@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.nicolas.projeto_handly"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.nicolas.projeto_handly"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
