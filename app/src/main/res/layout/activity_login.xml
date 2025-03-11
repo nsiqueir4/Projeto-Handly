@@ -14,8 +14,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textView3"
@@ -26,7 +28,7 @@
             android:text="Crie sua conta"
             android:textColor="#fff"
             android:textSize="35sp"
-            android:translationY="100dp" />
+            android:translationY="125dp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -37,7 +39,7 @@
             android:text="Já tem uma conta?"
             android:textColor="#fff"
             android:textSize="16sp"
-            android:translationY="100dp" />
+            android:translationY="125dp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -48,7 +50,15 @@
             android:textColor="#224A98"
             android:textSize="16sp"
             android:translationX="220dp"
-            android:translationY="73dp" />
+            android:translationY="100dp" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_top_background"
+            android:translationY="120dp" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
