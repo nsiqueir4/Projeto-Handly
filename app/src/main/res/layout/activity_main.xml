@@ -53,8 +53,9 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="409dp"
-            android:layout_height="466dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"

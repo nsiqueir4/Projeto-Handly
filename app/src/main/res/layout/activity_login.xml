@@ -50,7 +50,7 @@
             android:textColor="#224A98"
             android:textSize="16sp"
             android:translationX="220dp"
-            android:translationY="100dp" />
+            android:translationY="98dp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
@@ -107,7 +107,9 @@
                 android:layout_width="344dp"
                 android:layout_height="64dp"
                 android:background="@drawable/rounded_background_button"
-                android:text="Button"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Criar Conta"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
